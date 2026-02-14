@@ -1,24 +1,22 @@
+html body{
+    overflow-x: hidden;
+}  
 body{
-    background-color: black;
+    background-color: #dadada;
+    cursor: default;
 }
 
-#header{
-    text-align: center;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    line-height: 1.5;
-    color: rgb(78, 250, 213);
-    background-color: rgb(36, 35, 35);
-    border-radius: 5px;
+#logo{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 100%;
+    transition: 2s;
+    overflow-x: hidden;
 }
-#header p{
-    text-align: center;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    line-height: 1.5;
-    color: rgb(255, 255, 255);
-    background-color: rgb(19, 18, 18);
-    border-radius: 5px;
+#logo:hover{
+    transform: scale(1.2);
 }
-
 #main {
     text-align: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -27,3 +25,56 @@ body{
     background-color: rgb(36, 35, 35);
     border-radius: 5px;
 }
+#welcome{
+    text-align: center;
+    color: #545454;
+    font-weight: bold;
+    margin-bottom: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#welcome a{
+    border-radius: 10px;
+    padding: 15px 40px;
+    background-color: #545454;
+    text-decoration: none;
+    color: #ffffff;;
+    font-weight: bold;
+    font-size: 18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: inline-block;
+    transition: 2s;
+}
+#welcome a:hover{
+    color: #c1ff72;
+    border-radius: 10px;
+    padding: 15px 70px;
+    background-color: rgb(54, 54, 54);
+}
+
+#highlight{
+    color: #000000;
+}
+#welcome h1{
+    transition: 3s;
+}
+#welcome h1:hover{
+    font-size: 36px;
+    color: #000000;
+}
+
+#features{
+    text-align: center;
+    color: #545454;
+    font-weight: bold;
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#popupfeatures{
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    color: #545454;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
